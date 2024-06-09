@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21" />
+    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up Assignment">
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/Answer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/AnswerContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/MultipleChoiceAnswerContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/OpenAnswer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/OpenAnswerContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/SingleChoiceAnswerContent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/question/OpenQuestion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/question/Question.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +36,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="activity-server" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -33,8 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -72,41 +90,46 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build activity-server.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ActivityServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/johnt/Dev/elaastic-next/activity-server&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2091954&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build activity-server.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.ActivityServerApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/johnt/Dev/elaastic-next/activity-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2091954",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;C:\\Users\\johnt\\.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\johnt\\.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\johnt\Dev\elaastic-next" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\johnt\Dev\elaastic-next" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.elaastic.materials.question" />
+      <recent name="org.elaastic.materials.answer" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ActivityServerApplication">
@@ -202,6 +225,7 @@
       <updated>1717937807983</updated>
       <workItem from="1717937809330" duration="1992000" />
       <workItem from="1717940006345" duration="4021000" />
+      <workItem from="1717947410712" duration="3002000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21">
       <option name="closed" value="true" />
@@ -211,7 +235,39 @@
       <option name="project" value="LOCAL" />
       <updated>1717939377710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[WIP] Sketch up Activity concept">
+      <option name="closed" value="true" />
+      <created>1717947577032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717947577032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Set org.elaastic as base package">
+      <option name="closed" value="true" />
+      <created>1717947682258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717947682258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Set org.elaastic as base package">
+      <option name="closed" value="true" />
+      <created>1717947721146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717947721146</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Sketch up Assignment">
+      <option name="closed" value="true" />
+      <created>1717947960204</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717947960204</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +286,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21" />
+    <MESSAGE value="[WIP] Sketch up Activity concept" />
+    <MESSAGE value="Set org.elaastic as base package" />
+    <MESSAGE value="Sketch up Assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sketch up Assignment" />
   </component>
 </project>
