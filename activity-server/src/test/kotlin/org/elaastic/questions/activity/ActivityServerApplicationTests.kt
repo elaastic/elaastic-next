@@ -1,4 +1,4 @@
-package org.elaastic.questions.activity_server
+package org.elaastic.questions.activity
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

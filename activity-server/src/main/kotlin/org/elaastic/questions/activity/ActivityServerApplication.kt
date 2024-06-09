@@ -1,4 +1,4 @@
-package org.elaastic.questions.activity_server
+package org.elaastic.questions.activity
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
