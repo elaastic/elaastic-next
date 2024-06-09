@@ -15,3 +15,17 @@ k
 ;src/main/kotlin/org/elaastic/questions/directory/Learner.kt,2\8\28a1eb2375e137037730d18cefba93d7cfe94039
 p
 @src/main/kotlin/org/elaastic/questions/activity/ActivityState.kt,f\4\f42e83bba0a8d497f26e72d4c69a9a9c398c3e05
+Å
+Qsrc/test/kotlin/org/elaastic/questions/activity/ActivityServerApplicationTests.kt,8\0\80448b0ed9857acca4544f4808cd729a4598ac22
+a
+1src/main/kotlin/org/elaastic/directory/Learner.kt,1\0\109cff2169449d8c095398d3360c4f2e855fcf5f
+a
+1src/main/kotlin/org/elaastic/directory/Teacher.kt,4\a\4a1de2e06af2b7653b7e2611c329392d4d39ddbd
+a
+1src/main/kotlin/org/elaastic/activity/Activity.kt,9\5\95d506cd48b952214503cd1a9fe5e5ea7c5c12de
+r
+Bsrc/main/kotlin/org/elaastic/activity/ActivityServerApplication.kt,b\d\bd8d0c0218ef5e882dbaaed467c3c43257772315
+f
+6src/main/kotlin/org/elaastic/activity/ActivityState.kt,5\c\5ccd4e13c2210afe6afcdb1eaacf95412bdc36c7
+^
+.src/main/kotlin/org/elaastic/directory/User.kt,a\a\aaa964012420421aeea028d80caa46dfc1614659

@@ -1,4 +1,4 @@
-package org.elaastic.questions.activity
+package org.elaastic.activity
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

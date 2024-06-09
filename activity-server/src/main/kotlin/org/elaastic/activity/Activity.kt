@@ -1,4 +1,4 @@
-package org.elaastic.questions.activity
+package org.elaastic.activity
 
 
 class Activity(
