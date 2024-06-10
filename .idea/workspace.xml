@@ -4,19 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up Assignment">
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/Subject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/Answer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/AnswerContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/MultipleChoiceAnswerContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/OpenAnswer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/OpenAnswerContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/answer/SingleChoiceAnswerContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/question/OpenQuestion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/materials/question/Question.kt" afterDir="false" />
+    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up Questions &amp; Answers">
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/Phase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/PhaseId.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/PhaseState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/SynchronousSequenceActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28a1eb2375e137037730d18cefba93d7cfe94039" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5371932241539eac0a6e1c1a849a670423d3773c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8ae869c4416a1d669c881577c7b6ad39f8f00125" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b55ec6dfcc04c77d60ffff19d84c9d2cf50e53b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c14b35928712c0597a31b9f28a8f8f555ac3dc57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f42e83bba0a8d497f26e72d4c69a9a9c398c3e05" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28a1eb2375e137037730d18cefba93d7cfe94039" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/5371932241539eac0a6e1c1a849a670423d3773c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8ae869c4416a1d669c881577c7b6ad39f8f00125" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/5/b55ec6dfcc04c77d60ffff19d84c9d2cf50e53b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c14b35928712c0597a31b9f28a8f8f555ac3dc57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f42e83bba0a8d497f26e72d4c69a9a9c398c3e05" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/Activity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/ActivityState.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +39,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/activity-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/server">
       <ProjectState />
     </projectState>
   </component>
@@ -52,7 +66,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Python Script" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -90,36 +106,37 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build activity-server.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.ActivityServerApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/johnt/Dev/elaastic-next/activity-server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2091954",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build activity-server.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ActivityServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/johnt/Dev/elaastic-next/server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6034483&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\johnt\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\johnt\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\johnt\Dev\elaastic-next" />
@@ -133,37 +150,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ActivityServerApplication">
-    <configuration name="ActivityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="activity-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.elaastic.activity.ActivityServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.elaastic.activity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActivityServerApplicationKt" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="activity-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.elaastic.questions.activity.ActivityServerApplicationKt" />
-      <extension name="com.fapiko.jetbrains.plugins.better_direnv.runconfigs.IdeaRunConfigurationExtension">
-        <option name="DIRENV_ENABLED" value="false" />
-        <option name="DIRENV_TRUSTED" value="false" />
-      </extension>
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.elaastic.questions.activity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="elaastic-next" />
       <option name="ENV_FILES" value="" />
@@ -200,10 +186,29 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="ActivityServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="activity-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.elaastic.activity.ActivityServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivityServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="activity-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.elaastic.activity.ActivityServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elaastic.activity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ActivityServerApplication" />
-        <item itemvalue="Spring Boot.ActivityServerApplicationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +230,12 @@
       <updated>1717937807983</updated>
       <workItem from="1717937809330" duration="1992000" />
       <workItem from="1717940006345" duration="4021000" />
-      <workItem from="1717947410712" duration="3002000" />
+      <workItem from="1717947410712" duration="3966000" />
+      <workItem from="1717955585474" duration="202000" />
+      <workItem from="1717955807993" duration="136000" />
+      <workItem from="1717955963014" duration="169000" />
+      <workItem from="1717956238240" duration="457000" />
+      <workItem from="1718052083515" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21">
       <option name="closed" value="true" />
@@ -267,7 +277,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717947960204</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sketch up Questions &amp; Answers">
+      <option name="closed" value="true" />
+      <created>1717950559861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717950559861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sketch up Questions &amp; Answers">
+      <option name="closed" value="true" />
+      <created>1717950751670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717950751670</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Sketch up Questions &amp; Answers">
+      <option name="closed" value="true" />
+      <created>1717950881748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717950881748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +323,7 @@
     <MESSAGE value="[WIP] Sketch up Activity concept" />
     <MESSAGE value="Set org.elaastic as base package" />
     <MESSAGE value="Sketch up Assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sketch up Assignment" />
+    <MESSAGE value="Sketch up Questions &amp; Answers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sketch up Questions &amp; Answers" />
   </component>
 </project>

@@ -1,7 +1,6 @@
 package org.elaastic.activity
 
 
-class Activity(
+open class Activity(
     val title: String,
-    val state: ActivityState,
 )
