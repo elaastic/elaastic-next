@@ -3,8 +3,7 @@ package org.elaastic.activity.sequence
 enum class PhaseState {
     UNDEFINED,
     PENDING,
-    ACTIVE,
+    OPEN,
     SKIPPED,
-    CANCELLED,
-    DONE,
+    CLOSED,
 }

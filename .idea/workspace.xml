@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up Questions &amp; Answers">
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/Phase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/PhaseId.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/PhaseState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/SynchronousSequenceActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28a1eb2375e137037730d18cefba93d7cfe94039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5371932241539eac0a6e1c1a849a670423d3773c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8ae869c4416a1d669c881577c7b6ad39f8f00125" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b55ec6dfcc04c77d60ffff19d84c9d2cf50e53b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c14b35928712c0597a31b9f28a8f8f555ac3dc57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f42e83bba0a8d497f26e72d4c69a9a9c398c3e05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/8/28a1eb2375e137037730d18cefba93d7cfe94039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/5371932241539eac0a6e1c1a849a670423d3773c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/a/8ae869c4416a1d669c881577c7b6ad39f8f00125" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/5/b55ec6dfcc04c77d60ffff19d84c9d2cf50e53b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c14b35928712c0597a31b9f28a8f8f555ac3dc57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/4/f42e83bba0a8d497f26e72d4c69a9a9c398c3e05" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up SynchronousSequenceActivity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/Activity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/Activity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/ActivityState.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +213,7 @@
       <workItem from="1717955807993" duration="136000" />
       <workItem from="1717955963014" duration="169000" />
       <workItem from="1717956238240" duration="457000" />
-      <workItem from="1718052083515" duration="1864000" />
+      <workItem from="1718052083515" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="Spring boot initializr&#10;- Spring boot 3.3.0&#10;- Kotlin&#10;- Java 21">
       <option name="closed" value="true" />
@@ -301,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717950881748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sketch up SynchronousSequenceActivity">
+      <option name="closed" value="true" />
+      <created>1718053998067</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718053998067</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +310,7 @@
     <MESSAGE value="Set org.elaastic as base package" />
     <MESSAGE value="Sketch up Assignment" />
     <MESSAGE value="Sketch up Questions &amp; Answers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sketch up Questions &amp; Answers" />
+    <MESSAGE value="Sketch up SynchronousSequenceActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sketch up SynchronousSequenceActivity" />
   </component>
 </project>
