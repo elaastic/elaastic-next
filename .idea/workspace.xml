@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Sketch up SynchronousSequenceActivity">
+    <list default="true" id="78335247-b145-4131-a030-45d178e6b9cf" name="Changes" comment="Fix SynchronousSequenceActivity.getActivePhases()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/Phase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/Phase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/SynchronousSequenceActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/activity-server/src/main/kotlin/org/elaastic/activity/sequence/SynchronousSequenceActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718053998067</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix SynchronousSequenceActivity.getActivePhases()">
+      <option name="closed" value="true" />
+      <created>1718121278859</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718121278859</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +321,7 @@
     <MESSAGE value="Sketch up Assignment" />
     <MESSAGE value="Sketch up Questions &amp; Answers" />
     <MESSAGE value="Sketch up SynchronousSequenceActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sketch up SynchronousSequenceActivity" />
+    <MESSAGE value="Fix SynchronousSequenceActivity.getActivePhases()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix SynchronousSequenceActivity.getActivePhases()" />
   </component>
 </project>
