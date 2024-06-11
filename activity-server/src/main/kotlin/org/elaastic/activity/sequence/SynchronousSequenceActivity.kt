@@ -37,6 +37,6 @@ class SynchronousSequenceActivity(title: String) : Activity(title) {
         TODO()
     }
 
-    fun getActivePhases() = phases.filter { phase -> phase.state == PhaseState.ACTIVE }
+    fun getActivePhases() = phases.filter { phase -> phase.isOpen() }
 
 }
